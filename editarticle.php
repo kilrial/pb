@@ -18,9 +18,12 @@
         $art->setIdCategories($takeCat);
         $art->setText($_POST['text']);
 
-        $image = $_FILES['image'];
-        $art->setImage($image['name']);
-        move_uploaded_file($image['tmp_name'], "image/".$image['name']);
+        $uploaddir = "/var/www/pb/image/";
+        $uploadfile = $uploaddir.basename($_FILES['image']['name']);
+
+        if(move_uploaded_file($_FILES['image']['tmp_name'], $uploadfile)){
+            $art->setImage($_FILES['image']['name']);
+        }
 
         $entityManager->persist($art);
         $entityManager->flush();
