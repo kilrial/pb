@@ -1,2 +1,3 @@
 /image/*
 /smarty/libs/*
+/var/www/pb/libs/vendor/*
