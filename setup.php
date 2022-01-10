@@ -1,6 +1,6 @@
 <?php
     require_once('smarty/libs/Smarty.class.php');
-    require_once('libs/bootstrap.php');
+    require_once('smarty/libs/bootstrap.php');
 
     $smarty = new Smarty();
 
