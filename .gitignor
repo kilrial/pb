@@ -1,4 +1,3 @@
 /image/*
-cache/*
-templates_c/*
-/smarty/*
+/smarty/templates_c/*
+/smarty/cache/*
