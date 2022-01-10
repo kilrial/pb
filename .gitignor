@@ -1,3 +1,4 @@
-/libs
-
 /image/*
+/cache/*
+/template_c/*
+/smarty/*
