@@ -1,6 +1,7 @@
 /image/*
-/libs/vendor/*
-/libs/.env
+/vendor/*
 /smarty/cache/*
-libs/composer.lock
+
+composer.lock
+.env
 

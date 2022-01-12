@@ -3,7 +3,7 @@
     use Entities\Categories;
 
     include 'setup.php';
-    require_once('libs/bootstrap.php');
+    require_once('bootstrap.php');
 
     $categories = $entityManager->getRepository(Categories::class)->findAll();
     $smarty->assign('categories', $categories);
