@@ -14,6 +14,5 @@
     $arts = $entityManager->getRepository(Articles::class)->findBy([], ['id' => 'DESC']);
     $smarty->assign('arts', $arts);
 
-    $smarty->debugging = true;
     $smarty->display('index.tpl');
 ?>

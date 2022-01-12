@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.0.0, created on 2022-01-12 19:03:16
+/* Smarty version 4.0.3, created on 2022-01-12 19:49:48
   from '/var/www/pb/public/templates/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '4.0.0',
-  'unifunc' => 'content_61defbc43858e6_28156971',
+  'version' => '4.0.3',
+  'unifunc' => 'content_61df06acbe37e6_64059929',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61defbc43858e6_28156971 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61df06acbe37e6_64059929 (Smarty_Internal_Template $_smarty_tpl) {
 ?><header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">

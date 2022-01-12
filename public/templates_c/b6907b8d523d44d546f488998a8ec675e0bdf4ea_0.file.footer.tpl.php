@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 4.0.0, created on 2022-01-12 19:03:22
+/* Smarty version 4.0.3, created on 2022-01-12 19:49:48
   from '/var/www/pb/public/templates/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
-  'version' => '4.0.0',
-  'unifunc' => 'content_61defbca05eea6_50312245',
+  'version' => '4.0.3',
+  'unifunc' => 'content_61df06acbeb456_77917522',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61defbca05eea6_50312245 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61df06acbeb456_77917522 (Smarty_Internal_Template $_smarty_tpl) {
 ?><footer class="blog-footer">
   <p>Blog template built for <a href="https://getbootstrap.com/">Bootstrap</a> by <a href="https://twitter.com/mdo">@mdo</a>.</p>
   <p>
