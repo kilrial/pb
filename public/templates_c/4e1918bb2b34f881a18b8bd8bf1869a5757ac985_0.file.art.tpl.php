@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0, created on 2022-01-10 18:35:44
-  from '/var/www/pb/smarty/templates/art.tpl' */
+/* Smarty version 4.0.0, created on 2022-01-12 19:03:16
+  from '/var/www/pb/public/templates/art.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0',
-  'unifunc' => 'content_61dc52500cb7d8_90103023',
+  'unifunc' => 'content_61defbc436fc37_40180878',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'f494b3f3b32a74c8d435dc1213ecc41a3fce9d43' => 
+    '4e1918bb2b34f881a18b8bd8bf1869a5757ac985' => 
     array (
-      0 => '/var/www/pb/smarty/templates/art.tpl',
-      1 => 1641649922,
+      0 => '/var/www/pb/public/templates/art.tpl',
+      1 => 1642003163,
       2 => 'file',
     ),
   ),
@@ -24,8 +24,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_61dc52500cb7d8_90103023 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/pb/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
+function content_61defbc436fc37_40180878 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/pb/vendor/smarty/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),));
 ?>
 <!doctype html>
     <?php $_smarty_tpl->_subTemplateRender("file:head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
@@ -56,7 +56,7 @@ $_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/pb/smarty/libs/plug
                         <div class="col-md-12">
                             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
                                 <div class="col p-4 d-flex flex-column position-static">
-                                    <form class = "form" method = "POST" action = "/art.php?id=<?php echo $_smarty_tpl->tpl_vars['art']->value->getId();?>
+                                    <form class = "form" method = "POST" action = "/public/art.php?id=<?php echo $_smarty_tpl->tpl_vars['art']->value->getId();?>
 ">
                                         <div class="row row-fluid">
                                             <div class ="col-md-4">

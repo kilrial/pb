@@ -1,17 +1,17 @@
 <?php
-/* Smarty version 4.0.0, created on 2022-01-10 18:34:43
-  from '/var/www/pb/smarty/templates/sidebar.tpl' */
+/* Smarty version 4.0.0, created on 2022-01-12 19:03:22
+  from '/var/www/pb/public/templates/sidebar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0',
-  'unifunc' => 'content_61dc52133d7ed5_86529099',
+  'unifunc' => 'content_61defbca05da46_38684910',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '2a4d69a8bd48cf9a66ff5eac67cd951d459112b5' => 
+    'fa1d4a572185fdcff03754d7db571cbc2ad43cb8' => 
     array (
-      0 => '/var/www/pb/smarty/templates/sidebar.tpl',
+      0 => '/var/www/pb/public/templates/sidebar.tpl',
       1 => 1641649922,
       2 => 'file',
     ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_61dc52133d7ed5_86529099 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61defbca05da46_38684910 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 bg-light rounded">

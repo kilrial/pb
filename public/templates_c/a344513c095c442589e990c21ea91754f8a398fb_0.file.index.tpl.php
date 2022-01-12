@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0, created on 2022-01-10 18:34:43
-  from '/var/www/pb/smarty/templates/index.tpl' */
+/* Smarty version 4.0.0, created on 2022-01-12 19:03:28
+  from '/var/www/pb/public/templates/index.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0',
-  'unifunc' => 'content_61dc52133ce5d8_73653304',
+  'unifunc' => 'content_61defbd0328a36_14715320',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    '1701b84100224aa1c2b227eddf6da45fc1ab1a91' => 
+    'a344513c095c442589e990c21ea91754f8a398fb' => 
     array (
-      0 => '/var/www/pb/smarty/templates/index.tpl',
-      1 => 1641649922,
+      0 => '/var/www/pb/public/templates/index.tpl',
+      1 => 1642002873,
       2 => 'file',
     ),
   ),
@@ -24,8 +24,8 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_61dc52133ce5d8_73653304 (Smarty_Internal_Template $_smarty_tpl) {
-$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/pb/smarty/libs/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),1=>array('file'=>'/var/www/pb/smarty/libs/plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),));
+function content_61defbd0328a36_14715320 (Smarty_Internal_Template $_smarty_tpl) {
+$_smarty_tpl->_checkPlugins(array(0=>array('file'=>'/var/www/pb/vendor/smarty/plugins/modifier.date_format.php','function'=>'smarty_modifier_date_format',),1=>array('file'=>'/var/www/pb/vendor/smarty/plugins/modifier.truncate.php','function'=>'smarty_modifier_truncate',),));
 ?>
 <!doctype html>
     <?php $_smarty_tpl->_subTemplateRender("file:head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
@@ -48,7 +48,7 @@ $_smarty_tpl->tpl_vars['art']->do_else = false;
                 <div class="col-md-6">
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary"><a style="text-decoration: none" href = "/art_cat.php?categori=<?php echo $_smarty_tpl->tpl_vars['art']->value->getIdCategories()->getId();?>
+                        <strong class="d-inline-block mb-2 text-primary"><a style="text-decoration: none" href = "/public/art_cat.php?categori=<?php echo $_smarty_tpl->tpl_vars['art']->value->getIdCategories()->getId();?>
 "><?php echo $_smarty_tpl->tpl_vars['art']->value->getIdCategories()->getName();?>
 </a></strong>
                         <h3 class="mb-0"><?php echo $_smarty_tpl->tpl_vars['art']->value->getTitel();?>
@@ -57,7 +57,7 @@ $_smarty_tpl->tpl_vars['art']->do_else = false;
 </div>
                         <p class="card-text mb-auto"><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['art']->value->getText(),120,"...",true);?>
 </p>
-                        <a href="/art.php?id=<?php echo $_smarty_tpl->tpl_vars['art']->value->getId();?>
+                        <a href="/public/art.php?id=<?php echo $_smarty_tpl->tpl_vars['art']->value->getId();?>
 " >Продолжить читать</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">
@@ -86,7 +86,7 @@ $_smarty_tpl->tpl_vars['art']->do_else = false;
                 <div class="col-md-12">
                     <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
                     <div class="col p-4 d-flex flex-column position-static">
-                        <strong class="d-inline-block mb-2 text-primary"><a style="text-decoration: none" href = "/art_cat.php?categori=<?php echo $_smarty_tpl->tpl_vars['art']->value->getIdCategories()->getId();?>
+                        <strong class="d-inline-block mb-2 text-primary"><a style="text-decoration: none" href = "/public/art_cat.php?categori=<?php echo $_smarty_tpl->tpl_vars['art']->value->getIdCategories()->getId();?>
 "> <?php echo $_smarty_tpl->tpl_vars['art']->value->getIdCategories()->getName();?>
  </a></strong>
                         <h3 class="mb-0"><?php echo $_smarty_tpl->tpl_vars['art']->value->getTitel();?>
@@ -95,7 +95,7 @@ $_smarty_tpl->tpl_vars['art']->do_else = false;
 </div>
                         <p class="card-text mb-auto"><?php echo smarty_modifier_truncate($_smarty_tpl->tpl_vars['art']->value->getText(),120,"...",true);?>
 </p>
-                        <a href="/art.php?id=<?php echo $_smarty_tpl->tpl_vars['art']->value->getId();?>
+                        <a href="/public/art.php?id=<?php echo $_smarty_tpl->tpl_vars['art']->value->getId();?>
 " >Продолжить читать</a>
                     </div>
                     <div class="col-auto d-none d-lg-block">

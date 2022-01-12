@@ -1,6 +1,6 @@
 /image/*
 /vendor/*
-/smarty/cache/*
+/public/cache/*
 
 composer.lock
 .env

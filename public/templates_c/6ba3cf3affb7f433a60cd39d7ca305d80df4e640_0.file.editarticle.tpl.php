@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 4.0.0, created on 2022-01-10 18:35:34
-  from '/var/www/pb/smarty/templates/editarticle.tpl' */
+/* Smarty version 4.0.0, created on 2022-01-12 19:03:22
+  from '/var/www/pb/public/templates/editarticle.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '4.0.0',
-  'unifunc' => 'content_61dc5246b95653_29251452',
+  'unifunc' => 'content_61defbca052163_12895119',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
-    'b4aba97422e1651f7531727e23e6e2dfa0a68bca' => 
+    '6ba3cf3affb7f433a60cd39d7ca305d80df4e640' => 
     array (
-      0 => '/var/www/pb/smarty/templates/editarticle.tpl',
-      1 => 1641649922,
+      0 => '/var/www/pb/public/templates/editarticle.tpl',
+      1 => 1642003099,
       2 => 'file',
     ),
   ),
@@ -24,7 +24,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:footer.tpl' => 1,
   ),
 ),false)) {
-function content_61dc5246b95653_29251452 (Smarty_Internal_Template $_smarty_tpl) {
+function content_61defbca052163_12895119 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
     <?php $_smarty_tpl->_subTemplateRender("file:head.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, false);
 ?>
@@ -38,7 +38,7 @@ function content_61dc5246b95653_29251452 (Smarty_Internal_Template $_smarty_tpl)
 
             <div class="row g-5">
                 <div class="col-md-8">
-                    <form calss="form" method="POST" id="data" action="/editarticle.php" enctype="multipart/form-data">
+                    <form calss="form" method="POST" id="data" action="/public/editarticle.php" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-12">
                                 <input class="mb-3" type="text" name="titel" placeholder="Название" required>                           

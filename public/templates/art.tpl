@@ -21,7 +21,7 @@
                         <div class="col-md-12">
                             <div class="row g-0 border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-150 position-relative">
                                 <div class="col p-4 d-flex flex-column position-static">
-                                    <form class = "form" method = "POST" action = "/art.php?id={$art->getId()}">
+                                    <form class = "form" method = "POST" action = "/public/art.php?id={$art->getId()}">
                                         <div class="row row-fluid">
                                             <div class ="col-md-4">
                                                 <input class="mb-3" type="text" name="author" placeholder="Имя" required>

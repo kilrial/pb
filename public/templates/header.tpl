@@ -1,7 +1,7 @@
 <header class="blog-header py-3">
     <div class="row flex-nowrap justify-content-between align-items-center">
       <div class="col-4 pt-1">
-        <a class="link-secondary" href="/index.php">На главную</a>
+        <a class="link-secondary" href="/public/index.php">На главную</a>
       </div>
       <div class="col-4 text-center">
         <a class="blog-header-logo text-dark" href="#">Large</a>
@@ -17,7 +17,7 @@
   <div class="nav-scroller py-1 mb-2">
     <nav class="nav d-flex justify-content-between">
       {foreach from=$categories item=$cat}
-        <a class="p-2 link-secondary" href="/art_cat.php?categori={$cat->getId()}">{$cat->getName()}</a>
+        <a class="p-2 link-secondary" href="/public/art_cat.php?categori={$cat->getId()}">{$cat->getName()}</a>
       {/foreach}
     </nav>
   </div>
@@ -26,6 +26,6 @@
     <div class="col-md-6 px-0">
     <h1 class="display-4 fst-italic">Title of a longer featured blog post</h1>
     <p class="lead my-3">Multiple lines of text that form the lede, informing new readers quickly and efficiently about what’s most interesting in this post’s contents.</p>
-    <p class="lead mb-0"><a href="/editarticle.php" class="text-white fw-bold">Добавить статью</a></p>
+    <p class="lead mb-0"><a href="/public/editarticle.php" class="text-white fw-bold">Добавить статью</a></p>
     </div>
   </div>

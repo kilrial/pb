@@ -9,7 +9,7 @@
 
             <div class="row g-5">
                 <div class="col-md-8">
-                    <form calss="form" method="POST" id="data" action="/editarticle.php" enctype="multipart/form-data">
+                    <form calss="form" method="POST" id="data" action="/public/editarticle.php" enctype="multipart/form-data">
                         <div class="row">
                             <div class="col-md-12">
                                 <input class="mb-3" type="text" name="titel" placeholder="Название" required>                           
