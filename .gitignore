@@ -3,4 +3,4 @@
 /libs/.env
 /smarty/cache/*
 libs/composer.lock
-smarty/templates_c/*
+
