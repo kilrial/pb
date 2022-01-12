@@ -1,4 +1,5 @@
 /image/*
-/var/www/pb/libs/vendor
+/var/www/pb/libs/vendor/*
 /var/www/pb/libs/.env
 /var/www/pb/libs/composer.lock
+/var/www/pb/smarty/cache/*
