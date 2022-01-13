@@ -1,6 +1,7 @@
 /image/*
 /vendor/*
 /public/cache/*
+public/templates_c/*
 
 composer.lock
 .env
