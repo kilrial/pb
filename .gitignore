@@ -1,8 +1,9 @@
 /image/*
 /vendor/*
 /public/cache/*
-public/templates_c/*
+/public/templates_c/*
 
 composer.lock
 .env
 
+public/templates_c/fa1d4a572185fdcff03754d7db571cbc2ad43cb8_0.file.sidebar.tpl.php

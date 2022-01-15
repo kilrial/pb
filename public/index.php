@@ -4,6 +4,9 @@
 
     include('../setup.php');
     require_once('../bootstrap.php');
+    require('../src/weather.php');
+
+    $smarty->assign('weather', $weatherData);
 
     $categories = $entityManager->getRepository(Categories::class)->findAll();
     $smarty->assign('categories', $categories);

@@ -1,8 +1,10 @@
 <div class="col-md-4">
       <div class="position-sticky" style="top: 2rem;">
         <div class="p-4 mb-3 bg-light rounded">
-          <h4 class="fst-italic">About</h4>
-          <p class="mb-0">Customize this section to tell your visitors a little bit about your publication, writers, content, or something else entirely. Totally up to you.</p>
+          <h4 class="fst-italic">Погода</h4>
+          <p class="mb-0">Температура воздуха: {$weather['main']['temp']|string_format:"%d"} ℃</p>
+          <p class="mb-0">Давление: {$weather['main']['pressure']|string_format:"%d"} мм рт. ст.</p>
+          <p class="mb-0">Скорость ветра: {$weather['wind']['speed']|string_format:"%d"} м/с</p>
         </div>
 
         <div class="p-4">
