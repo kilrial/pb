@@ -1,10 +1,6 @@
 <?php
-
-    use GuzzleHttp\Client;
-
     require_once('vendor/smarty/smarty/libs/Smarty.class.php');
     require_once('vendor/smarty/smarty/libs/bootstrap.php');
-    require_once('vendor/autoload.php');
 
     $smarty = new Smarty();
 
